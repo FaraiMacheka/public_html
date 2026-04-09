@@ -1,0 +1,20 @@
+name: Static Site Checks
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate static pages
+        shell: pwsh
+        run: ./.github/scripts/validate-static-site.ps1
+

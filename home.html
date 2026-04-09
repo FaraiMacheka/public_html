@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Harvest House Internationl RSA</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Harvest House International RSA , responsive" name="keywords">
+    <meta content="Harvest House International RSA" name="description">
+    <meta name="author" content="Farai Macheka, Striped Ape" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Load Facebook SDK for JavaScript -->
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v3.2'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat" attribution="setup_tool" page_id="1648026975416725"
+        logged_in_greeting="Shalom, how can we help you?"
+        logged_out_greeting="You can get in touch with us on our whatsapp number +27 78 954 0650" theme_color="#0098da">
+    </div>
+    <!-- Top Bar Start -->
+    <div class="top-bar d-none d-md-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="top-bar-left">
+                        <div class="text">
+                            <i class="fa fa-phone-alt"></i>
+                            <p><a href="https://api.whatsapp.com/send?phone=27789540650" target="_blank"
+                                    rel="noopener noreferrer">+27 78 954 0650</a></p>
+                        </div>
+                        <div class="text">
+                            <i class="fa fa-envelope"></i>
+                            <p> <a href="mailto:info@hhi.org.za">info@hhi.org.za</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="top-bar-right">
+                        <div class="social">
+                            <a href="https://twitter.com/harvesthousersa" target="_blank" rel="noopener noreferrer"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/HarvestHouseInternationalBraamfontein" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+
+                            <a href="https://www.instagram.com/harvesthousersa/" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Bar End -->
+
+    <!-- Nav Bar Start -->
+    <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a href="home.html" class="navbar-brand"><img src="img/partners/hhi.webp" alt="HHI logo"></a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+
+                    <a href="event.html" class="nav-item nav-link">Events</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Get Connected</a>
+                        <div class="dropdown-menu">
+                            <a href="https://easterevents.netlify.app/" target="_blank" rel="noopener noreferrer"
+                                class="dropdown-item">Easter Events</a>
+                            <a href="https://prayerconference2026.netlify.app/" target="_blank"
+                                rel="noopener noreferrer" class="dropdown-item">Prayer Conference 2026</a>
+                            <a href="http://cresta.hhi.org.za/" target="_blank" rel="noopener noreferrer"
+                                class="dropdown-item">Cresta</a>
+                            <a href="https://mli.hhi.org.za/" target="_blank" rel="noopener noreferrer"
+                                class="dropdown-item">MLI</a>
+                            <a href="maboneng/index.html" target="_blank" rel="noopener noreferrer"
+                                class="dropdown-item">Braamfontein Werf</a>
+                            <a href="pastors.html" class="dropdown-item">Our Pastors</a>
+                            <a href="prayer-request.html" class="dropdown-item">Prayer Requests</a>
+                            <a href="randburg/index.html" target="_blank" rel="noopener noreferrer"
+                                class="dropdown-item">Randburg</a>
+                            <a href="kempton-park/index.html" target="_blank" rel="noopener noreferrer"
+                                class="dropdown-item">Kempton Park</a>
+                            <a href="coming/index.html" target="_blank" rel="noopener noreferrer"
+                                class="dropdown-item">Western Cape</a>
+                            <a href="tshwane/index.html" target="_blank" rel="noopener noreferrer"
+                                class="dropdown-item">Tshwane &amp;
+                                Eastern Cape</a>
+                            <a href="https://www.harvesthouseinternational.org" target="_blank" rel="noopener noreferrer"
+                                class="dropdown-item">HQ Zimbabwe</a>
+                            <a href="http://hhi.org.zw/harvestmusiczw/" target="_blank" rel="noopener noreferrer"
+                                class="dropdown-item">Harvest Music</a>
+                            <a href="https://www.instagram.com/harvesthousersa/" target="_blank"
+                                rel="noopener noreferrer" class="dropdown-item">Harvest Music RSA</a>
+                            <a href="https://api.whatsapp.com/send?phone=27608289222" target="_blank"
+                                rel="noopener noreferrer" class="dropdown-item">School of Ministry</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Connect</a>
+                    <a href="coming/index.html" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-custom">Give</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Nav Bar End -->
+
+    <!-- Carousel Start -->
+    <div class="carousel">
+        <div class="container-fluid">
+            <div class="owl-carousel">
+
+                <div class="carousel-item">
+                    <div class="carousel-img">
+                        <img src="img/carousel-2.webp" alt="Image">
+                    </div>
+                    <div class="carousel-text">
+                        <h1>Welcome <br />
+                            Home </h1>
+
+
+                        <div class="carousel-btn">
+                            <a class="btn btn-custom" href="accept-jesus.html">Salavation</a>
+                            <a class="btn btn-custom" href="https://prayerconference2026.netlify.app/" target="_blank"
+                                rel="noopener noreferrer">Prayer Conference2026</a>
+                            <a class="btn btn-custom btn-play" data-toggle="modal"
+                                data-src="https://youtu.be/-EKcQQRFlf8?si=old-4cbnfKYLeZgE"
+                                data-target="#videoModal">Watch Video</a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-img">
+                        <img src="img/carousel-1.webp" alt="Image">
+                    </div>
+                    <div class="carousel-text">
+                        <h1>Revelation 12:11</h1>
+                        <p>
+                            "They have conquered him by the blood of the Lamb and by the word of their testimony; and
+                            they did not love their lives so as to shy away from death"
+                        </p>
+                        <div class="carousel-btn">
+                            <a class="btn btn-custom" href="https://prayerconference2026.netlify.app/" target="_blank"
+                                rel="noopener noreferrer">Prayer Conference2026</a>
+                            <a class="btn btn-custom" href="accept-jesus.html">Salavation</a>
+                            <a class="btn btn-custom btn-play" data-toggle="modal"
+                                data-src="https://youtu.be/eexY-7r6kbc" data-target="#videoModal">Watch Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-img">
+                        <img src="img/carousel-3.webp" alt="Image">
+                    </div>
+                    <div class="carousel-text">
+                        <h1>Explore Our Services</h1>
+                        <p>
+                            "...exhorting one another: and so much the more..." Hebrews 10:25
+                        </p>
+                        <div class="carousel-btn">
+                            <a class="btn btn-custom" href="https://prayerconference2026.netlify.app/" target="_blank"
+                                rel="noopener noreferrer">Prayer Conference2026</a>
+                            <a class="btn btn-custom" href="prayer-request.html">Prayer Requests </a>
+                            <a class="btn btn-custom btn-play" data-toggle="modal"
+                                data-src="https://youtu.be/GLPvtMUo0GQ" data-target="#videoModal">Watch Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-img">
+                        <img src="img/carousel-4.webp" alt="Image">
+                    </div>
+                    <div class="carousel-text">
+                        <h1>Explore Our Services</h1>
+                        <p>
+                            "...exhorting one another: and so much the more..." Hebrews 10:25
+                        </p>
+                        <div class="carousel-btn">
+                            <a class="btn btn-custom" href="pastors.html">Our Pastors </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- About Start -->
+    <div class="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-img" data-parallax="scroll" data-image-src="img/about.webp"></div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-header">
+                        <p>This is us</p>
+                        <h2>Harvest House International RSA</h2>
+                    </div>
+                    <div class="about-tab">
+                        <ul class="nav nav-pills nav-justified">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="pill" href="#tab-content-1">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="pill" href="#tab-content-2">Mission</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="pill" href="#tab-content-3">Vision</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="pill" href="#tab-content-4">Declarations</a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="tab-content-1" class="container tab-pane active">
+                                HARVEST House International Church was birthed in the home of the founders and Senior
+                                Pastors, Bishop's <a href="https://www.facebook.com/colin.nyathi" target="_blank"
+                                    rel="noopener noreferrer">Dr Colin</a>
+                                and
+                                <a href="https://www.facebook.com/sarah.nyathi.7" target="_blank"
+                                    rel="noopener noreferrer">Dr Sarah</a>
+                                Nyathi,in the year 1995. Starting with only eight individuals in their lounge, the
+                                church has experienced tremendous growth since 1995.HHI now has 300 churches worldwide.
+                                It is envisaged that 1,000 churches would have been established globally by the year
+                                2020. Harvest House International Churches can be found in Zimbabwe, Botswana, Namibia,
+                                Tanzania, Sierra Leone, Nigeria, Lesotho, Swaziland, South Africa, Abu Dhabi, the United
+                                Kingdom and Australia.
+                            </div>
+                            <div id="tab-content-2" class="container tab-pane fade">
+                                We want to take the nations for Christ Jesus, preaching the Gospel with signs and
+                                wonders following, bringing life and healing to the lost, wounded, lonely, rejected and
+                                downtrodden
+                            </div>
+                            <div id="tab-content-3" class="container tab-pane fade">
+                                <ul>
+                                    <li>The infallible, God inspired Word of God (The Bible) is true
+                                        and influences all our activities as a ministry.</li>
+                                    <li>We honor the Godhead (The Father, Son and Holy Spirit) by
+                                        allowing the Holy Spirit free reign in our lives and ministry.</li>
+                                    <li>We espouse a pioneering, trail blazing spirit that will
+                                        enable all harvesters to break ground achieving the impossible,
+                                        reviving individuals, cities, and nations, turning them to God.</li>
+                                    <li>Integrity, teamwork, respect and dignity are pillars of the
+                                        ministry.<a></a>
+                                    </li>
+                                    <li>Excellence is the hallmark of the ministry and is an
+                                        ingredient crucial to the fulfillment of the vision. In this regard
+                                        we continuously strive to improve in all that we do.<a></a>
+                                    </li>
+                                    <li>To continuously offer ministry that is pleasing to God by
+                                        ensuring that all ministry teams and congregants are taught the Word
+                                        of God to bring them to maturity in the spirit.</li>
+                                </ul>
+                            </div>
+                            <div id="tab-content-4" class="container tab-pane fade">
+                                <h4>2024 Declarations</h4>
+                                <ol style="color:#FDBE33;">
+                                    <li>Different levels and types of Anointing. </li>
+                                    <li>Back Sliding</li>
+                                    <li>End time events and signs</li>
+                                    <li>Church planting, growth and Evangelism</li>
+                                    <li>The Mega Church and its benfits, numerical growth</li>
+                                    <li>Principles of prosperity and wealth creation</li>
+
+                                </ol>
+                                <h4>2022 Declarations</h4>
+                                <ol>
+                                    <li>End Time Revival. Psalm 85:6, Isaiah 61: 1-4</li>
+                                    <li>Understanding Prayer, Intercession and All Types of Prayers.
+                                        Daniel 10:12, Joel 1: 14, Ephesians 6: 12, 18, Philippians 4:6</li>
+                                    <li>Stirring the Passion for Lost Souls. Acts 1: 8; Acts 20:20, Luke 14: 23 Luke 15:
+                                        4 – 10</li>
+                                    <li>Holiness. 1 peter 1: 14 – 16</li>
+                                    <li>Intimacy, Sex, Sexuality, Friendship, Dating, Courtship, Engagement, Marriage
+                                        and Raising Children .
+                                        Genesis 2: 24 - 25, Ephesians 5:31, 1 Corinthians 6: 16 -18; proverbs 9: 13 –
+                                        18; Ephesians 6: 1 – 4</li>
+                                    <li>The Anointing for Supernatural Finances and Other Resources. Deuteronomy 8:18,
+                                        Isaiah 60: 9 -17</li>
+
+                                </ol>
+                                <h4>2021 Declarations</h4>
+                                <ol>
+                                    <li>The Glory, the Presence and the Anointing of the Holy Spirit. 1 Samuel 6: 1-3,
+                                        Gen 22: 6
+                                    </li>
+                                    <li>Leadership in Trying Times. Psalm 75 : 5-6, 1 Tim 3:1</li>
+                                    <li>The power of a vision. prov 29:18</li>
+                                    <li>The Grace of God. Ephesians 1: 5-12, Eph 2: 1-10</li>
+                                    <li>Loyalty and disloyalty. John 6:70-71. 1, Corinthians 4:2</li>
+                                    <li>Financial empowerment. deut 8 v 18, Jer 17:11, Matt 4: 8</li>
+                                </ol>
+                                <h4>2020 Declarations</h4>
+                                <ol>
+                                    <li>End Time Revival.Psalm 85 : 6, 2 Chronicles 7 : 14</li>
+                                    <li>Apostolic Anointing.Isaiah 10 : 27, I John 2 : 27, 2 Samuel 2 : 4, 2 Samuel 5 :
+                                        3, 1 Kings 10 : 4-5 & 27.</li>
+                                    <li>Understanding Loyalty and Disloyalty.John 6 : 70-71, 1 Corinthians 4 : 2.</li>
+                                    <li>Understanding The End Time Principles of Fathering and Sonship.Acts 16 : 1-3
+                                    </li>
+                                    <li>Church Growth Principles.Luke 14 : 16 - 28</li>
+                                    <li>Breaking The Grip of Poverty.John 12 : 8, Leviticus 27 : 8, 2 Kings 24 : 14,
+                                        Luke 4 : 18, Deuteronomy 28 : 13, 44-45</li>
+                                </ol>
+                                <h4>2019 Declarations</h4>
+                                <ol>
+                                    <li>Understanding the Power of Praise and Worship, His Presence and His Glory. Luke
+                                        19:40, 2 Chronicles 7:1-3.</li>
+                                    <li>Understanding the power of Godly sacrifice.</li>
+                                    <li>Understanding the Prophetic Anointing. 1 Corinthians 14:1-5.</li>
+                                    <li>Understanding the Power of Vision. Proverbs 29:18, Habakkuk 3:1-3, Numbers 13
+                                    </li>
+                                    <li>Developing Eternal Perspective. Hebrews 11:10, Psalm 90:10, Isaiah 40:7-8</li>
+                                    <li>Understanding the power of seed time and harvest (blessings and curses?) Genesis
+                                        8:22, Galatians 6:7-8</li>
+                                </ol>
+                                <h4>2018 Declarations</h4>
+                                <ol>
+                                    <li>Understanding the Person of the Holy Spirit, His Fruits, Gifts and His
+                                        Anointing. 1 John 5:7.</li>
+                                    <li>Understanding the Power of the Cross, the Blood and the Name of Jesus. 1Peter
+                                        1:18 -19, Hebrews 9:11-14</li>
+                                    <li>Understanding the Key of Lasting Relationships (Loyalty and Disloyalty Series).
+                                        1 Corinthians 4:2, 1 Corinthians 4:15, Proverbs 22:10</li>
+                                    <li>Understanding the Key of Quiet Time, prayer, intercession and spiritual warfare
+                                        (Different Types of Prayer). Ephesians 6:18, Matthew 18:19-20, Luke 11:9-10,
+                                        Ecclesiastes 4:12, James 5:13, 2 Corinthians 10:4-5</li>
+                                    <li>Understanding Honour. Exodus 20:12.</li>
+                                    <li>Understanding the Key of Supernatural Provision. Genesis 22:13.</li>
+
+                                </ol>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Featured Updates Start -->
+    <div class="featured-updates">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Stay Connected</p>
+                <h2>Easter Events & Latest Updates</h2>
+                <p>Discover our Easter events page and follow the latest updates from Harvest House International
+                    Braamfontein.</p>
+            </div>
+            <div class="row align-items-stretch">
+                <div class="col-lg-5 mb-4">
+                    <div class="featured-updates-card">
+                        <span class="featured-updates-tag">Featured Link</span>
+                        <h3>Easter Events 2026</h3>
+                        <p>Open the Easter events site for schedules, locations, and all the key details for the
+                            season.</p>
+                        <div class="featured-updates-actions">
+                            <a class="btn btn-custom" href="https://easterevents.netlify.app/" target="_blank"
+                                rel="noopener noreferrer">Open Easter Events</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 mb-4">
+                    <div class="featured-updates-feed">
+                        <div class="featured-updates-feed-header">
+                            <h3>Latest Facebook Updates</h3>
+                            <a href="https://www.facebook.com/HarvestHouseInternationalBraamfontein" target="_blank"
+                                rel="noopener noreferrer">Visit Facebook Page</a>
+                        </div>
+                        <iframe
+                            title="Harvest House International Braamfontein Facebook updates"
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FHarvestHouseInternationalBraamfontein&tabs=timeline&width=500&height=620&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                            width="500" height="620" style="border:none;overflow:hidden" scrolling="no"
+                            frameborder="0" allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Featured Updates End -->
+
+
+    <!-- Service Start -->
+    <div class="service">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Hebrews 10:25</h2>
+                <p>“Not forsaking the assembling of ourselves together, as is the manner of some, but
+                    exhorting one another, and so much the more as you see the Day approaching.”</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="flaticon-diet"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>be a Light to Your Community</h3>
+                            <p>Jesus said the world will know we are His disciples by our love for one another.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="flaticon-water"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>Exercise Your Gift</h3>
+                            <p>We have different gifts, according to the grace given to each of us. If your gift is
+                                prophesying, then prophesy in accordance with your faith;
+                                (1 Corinthians 12 and Romans 12:6).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="flaticon-healthcare"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>Hear the Preaching of the Word</h3>
+                            <p>For the word of God is alive and active. Sharper than any double-edged sword, it
+                                penetrates even to dividing soul and spirit, joints and marrow; it judges the thoughts
+                                and attitudes of the heart.
+                                (Hebrews 4:12)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="flaticon-education"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>Iron Sharpens Iron</h3>
+                            <p>As iron sharpens iron, so one person sharpens another.
+                                (Proverbs 27:17).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="flaticon-home"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>Find Godly Mentors</h3>
+                            <p>“No eye has seen, nor ear heard, nor the heart of man imagined, what God has prepared for
+                                those who love Him”
+                                (1 Corinthians 2:9).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="flaticon-social-care"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>Find Godly Mentors</h3>
+                            <p>“No eye has seen, nor ear heard, nor the heart of man imagined, what God has prepared for
+                                those who love Him”
+                                (1 Corinthians 2:9).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Facts Start -->
+    <div class="facts" data-parallax="scroll" data-image-src="img/facts.webp">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="facts-item">
+                        <i class="flaticon-home"></i>
+                        <div class="facts-text">
+                            <h3 class="facts-plus" data-toggle="counter-up">716</h3>
+                            <p>Churches worldwide</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="facts-item">
+                        <i class="flaticon-charity"></i>
+                        <div class="facts-text">
+                            <h3 class="facts-plus" data-toggle="counter-up">6916</h3>
+                            <p>Members</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="facts-item">
+                        <i class="flaticon-kindness"></i>
+                        <div class="facts-text">
+                            <h3 class="facts-plus" data-toggle="counter-up">328</h3>
+                            <p>Services</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="facts-item">
+                        <i class="flaticon-donation"></i>
+                        <div class="facts-text">
+                            <h3 class="facts-plus" data-toggle="counter-up">1569</h3>
+                            <p>Pastor's</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facts End -->
+
+
+    <!-- Causes Start -->
+    <div class="causes">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Minitries & Departments</p>
+                <h2>Strengthening the Church<span></span></h2>
+                <p>Ephesians 4:12</p>
+
+            </div>
+
+            <div class="owl-carousel causes-carousel">
+                <div class="causes-item">
+                    <div class="causes-img">
+                        <img src="img/causes-1.webp" alt="Image">
+                    </div>
+                    <div class="causes-progress">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                aria-valuemax="100">
+                                <span>78%</span>
+                            </div>
+                        </div>
+                        <div class="progress-text">
+                            <p><strong>Raised:</strong> $100000</p>
+                            <p><strong>Goal:</strong> $500000</p>
+                        </div>
+                    </div>
+                    <div class="causes-text">
+                        <h3>Building Project</h3>
+                        <p>The church is God’s hands, mouth, and feet in this world—the body of Christ (1 Corinthians
+                            12:12-27). We are to be doing the things that Jesus Christ would do if He were here
+                            physically on the earth. The church is to be “Christian,” “Christ-like,” and
+                            Christ-following.</p>
+                    </div>
+                    <div class="causes-btn">
+                        <a class="btn btn-custom"
+                            href="https://www.facebook.com/harvesthouseint/videos/hhicc-site-seeing-funday/695067961841058/"
+                            target="_blank" rel="noopener noreferrer">Learn More</a>
+                        <a class="btn btn-custom"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSfvjpWJSsiu_Z2j-yjewrUg_KSc4zd2lnr1cvfxDrgMMVeSew/viewform"
+                            target="_blank" rel="noopener noreferrer">Pledge </a>
+                    </div>
+                </div>
+                <div class="causes-item">
+                    <div class="causes-img">
+                        <img src="img/causes-2.webp" alt="Image">
+                    </div>
+
+                    <div class="causes-text">
+                        <h3>Minitries</h3>
+                        <p>Peter addresses the importance of serving God in 1 Peter 4:10-11: “Each one should use
+                            whatever gift he has received to serve others, faithfully administering God’s grace in its
+                            various forms. If anyone speaks, he should do it as one speaking the very words of God. If
+                            anyone serves, he should do it with the strength God provides, so that in all things God may
+                            be praised through Jesus Christ. To him be the glory and the power for ever and ever. Amen.”
+                        </p>
+                    </div>
+                    <div class="causes-btn">
+
+                        <a class="btn btn-custom" href="https://api.whatsapp.com/send?phone=27789540650" target="_blank"
+                            rel="noopener noreferrer">Connect </a>
+
+                    </div>
+                </div>
+                <div class="causes-item">
+                    <div class="causes-img">
+                        <img src="img/causes-3.webp" alt="Image">
+                    </div>
+
+                    <div class="causes-text">
+                        <h3>Music team</h3>
+                        <p>
+                            And it was the duty of the trumpeters and singers to make themselves heard in unison in
+                            praise and thanksgiving to the Lord), and when the song was raised, with trumpets and
+                            cymbals and other musical instruments, in praise to the Lord, “For he is good, for his
+                            steadfast love endures forever,” the house, the house of the Lord, was filled with a cloud,
+                            (2 Chronicles 5:13)</p>
+                    </div>
+                    <div class="causes-btn">
+                        <a class="btn btn-custom" href="https://api.whatsapp.com/send?phone=27789540650" target="_blank"
+                            rel="noopener noreferrer">Connect </a>
+
+                    </div>
+                </div>
+                <div class="causes-item">
+                    <div class="causes-img">
+                        <img src="img/causes-4.webp" alt="Image">
+                    </div>
+
+                    <div class="causes-text">
+                        <h3>Prayer team</h3>
+                        <p>To plan and conduct prayer meetings or sessions, and help lead the church members to an
+                            active life of prayer. To help turn God's House, the church building, into a House of Prayer
+                            (Isa 56:7; Matth 21:13) To pray with others in the body of Christ for specific concerns and
+                            needs of people known or unknown to us</p>
+                    </div>
+                    <div class="causes-btn">
+                        <a class="btn btn-custom" href="https://api.whatsapp.com/send?phone=27789540650" target="_blank"
+                            rel="noopener noreferrer">Connect </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Causes End -->
+
+
+    <!-- Donate Start -->
+    <div class="donate" data-parallax="scroll" data-image-src="img/donate.webp">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="donate-content">
+                        <div class="section-header">
+                            <p>Connect </p>
+                            <h2>Let's donate to needy people for better lives</h2>
+                        </div>
+                        <div class="donate-text">
+                            <p>
+                                You shall give to him freely, and your heart shall not be grudging when you give to him,
+                                because for this the Lord your God will bless you in all your work and in all that you
+                                undertake.
+                                (DEUTERONOMY 15:10)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="donate-form">
+                        <form>
+                            <div class="control-group">
+                                <input type="text" class="form-control" placeholder="Name" required="required" />
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control" placeholder="Email" required="required" />
+                            </div>
+                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-custom active">
+                                    <input type="radio" name="options" checked> $10
+                                </label>
+                                <label class="btn btn-custom">
+                                    <input type="radio" name="options"> $20
+                                </label>
+                                <label class="btn btn-custom">
+                                    <input type="radio" name="options"> $30
+                                </label>
+                            </div>
+                            <div>
+                                <button class="btn btn-custom" type="submit">Connect </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Donate End -->
+
+
+    <!-- Event Start -->
+    <div class="event">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Our Hub Services</p>
+                <h2>Join us</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="event-item">
+                        <img src="img/event-1.webp" alt="Image">
+                        <div class="event-content">
+                            <div class="event-meta">
+                                <p><i class="fa fa-calendar-alt"></i>Prayer Service</p>
+                                <p><i class="far fa-clock"></i>8:00 - 9:00</p>
+                                <p><i class="fa fa-map-marker-alt"></i>Braamfontein Werf</p>
+                            </div>
+                            <div class="event-text">
+                                <h3>Prayer Service</h3>
+                                <p>
+                                    The primary principle of intercession is simply to tell God what He tells us to tell
+                                    Him as the means of releasing His power. He tells us what to pray in His Word. We
+                                    can pray the Bible. It is profoundly simple. Intercession is God’s brilliant
+                                    strategy for including the saints in ruling with Him in power. Its mystery is in its
+                                    weakness, simplicity, humility, and accessibility to all
+                                </p>
+                                <a class="btn btn-custom" href="https://api.whatsapp.com/send?phone=27789540650"
+                                    target="_blank" rel="noopener noreferrer">Connect</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="event-item">
+                        <img src="img/event-2.webp" alt="Image">
+                        <div class="event-content">
+                            <div class="event-meta">
+                                <p><i class="fa fa-calendar-alt"></i>Main Service</p>
+                                <p><i class="far fa-clock"></i>10:00 - 12:00</p>
+                                <p><i class="fa fa-map-marker-alt"></i>Braamfontein Werf</p>
+                            </div>
+                            <div class="event-text">
+                                <h3>Main Service</h3>
+                                <p>
+                                    Attending church each Sunday is a respite from fast-paced daily living. We slow down
+                                    for two hours each week to reflect, worship God, strengthen our spiritual
+                                    connections, and refocus our lives on Jesus Christ. We attend with a community of
+                                    Saints who are all trying to be more Christlike and learn from each other.
+                                </p>
+                                <a class="btn btn-custom" href="https://api.whatsapp.com/send?phone=27789540650"
+                                    target="_blank" rel="noopener noreferrer">Connect</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Event End -->
+
+
+    <!-- Team Start -->
+    <div class="team">
+        <div class="container">
+            <div class="section-header text-center">
+                <a href="pastors.html">
+                    <p>Meet Our Pastor's</p>
+                </a>
+                <h2>The Men & Women who lead the Hub</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img/team-1.png" alt="Team Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Dr Collin Nyathi</h2>
+                            <p>Founder & Bishop</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img/team-1.png" alt="Team Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Learnmore Manhivi</h2>
+                            <p> Senior Reverend</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img/team-1.png" alt="Team Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Juilet Manhivi</h2>
+                            <p>Reverend</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img/team-1.png" alt="Team Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Stanely & Lillian Nhamoinesu</h2>
+                            <p>Senior Pastor's</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="img/team-1.png" alt="Team Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Geralg Gundu</h2>
+                            <p>Senior Pastor</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Volunteer Start -->
+    <div class="volunteer" data-parallax="scroll" data-image-src="img/volunteer.webp">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div class="volunteer-form">
+                        <form>
+                            <div class="control-group">
+                                <input type="text" class="form-control" placeholder="Name" required="required" />
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control" placeholder="Email" required="required" />
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control" placeholder="Become a serving member"
+                                    required="required"></textarea>
+                            </div>
+                            <div>
+                                <button class="btn btn-custom" type="submit">Join a Department</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="volunteer-content">
+                        <div class="section-header">
+                            <p>Join a Department</p>
+                            <h2>Let's make a difference in the lives of others</h2>
+                        </div>
+                        <div class="volunteer-text">
+                            <p>
+                                If anyone serves, they should do so with the strength God provides, so that in all
+                                things God may be praised through Jesus Christ. To him be the glory and the power for
+                                ever and ever. Amen”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Volunteer End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="testimonial">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Revelation 12:11</p>
+                <h2>Testimonies from the congregants</h2>
+            </div>
+            <div class="owl-carousel testimonials-carousel">
+                <div class="testimonial-item">
+                    <div class="testimonial-profile">
+                        <img src="img/testimonial-1.webp" alt="Image">
+                        <div class="testimonial-name">
+                            <h3>Person Name</h3>
+                            <p>Profession</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-text">
+                        <p>
+                            ADONAI [ˌædɒˈnaɪ; ah-daw-nahy]: “Lord” (Genesis 15:2; Judges 6:15) – used in place of YHWH,
+                            which was thought by the Jews to be too sacred to be uttered by sinful men. In the Old
+                            Testament, YHWH is more often used in God’s dealings with His people, while Adonai is used
+                            more when He deals with the Gentiles.
+                        </p>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-profile">
+                        <img src="img/testimonial-2.webp" alt="Image">
+                        <div class="testimonial-name">
+                            <h3>Person Name</h3>
+                            <p>Profession</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-text">
+                        <p>
+                            EL-GIBHOR [el-ghee-bohr]: “Mighty God” (Isaiah 9:6) – the name describing the Messiah,
+                            Christ Jesus, in this prophetic portion of Isaiah. As a powerful and mighty warrior, the
+                            Messiah, the Mighty God, will accomplish the destruction of God’s enemies and rule with a
+                            rod of iron (Revelation 19:15).
+                        </p>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-profile">
+                        <img src="img/testimonial-3.webp" alt="Image">
+                        <div class="testimonial-name">
+                            <h3>Person Name</h3>
+                            <p>Profession</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-text">
+                        <p>
+                            ELOHIM [el-oh-heem]: God “Creator, Mighty and Strong” (Genesis 17:7; Jeremiah 31:33) – the
+                            plural form of Eloah. Being plural, Elohim which accommodates the doctrine of the Trinity.
+                            From the Bible’s first sentence, the superlative nature of God’s power is evident as God
+                            (Elohim) speaks the world into existence (Genesis 1:1).
+                        </p>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-profile">
+                        <img src="img/testimonial-4.webp" alt="Image">
+                        <div class="testimonial-name">
+                            <h3>Person Name</h3>
+                            <p>Profession</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-text">
+                        <p>
+                            Praise is a vital part of a life surrendered to God, and it gives credit where credit is
+                            due. “O that men would praise the Lord for his goodness, and for his wonderful works to the
+                            children of men!” (Psalm 107:8 KJV).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Contact Start -->
+    <div class="contact">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Connect</p>
+                <h2>Contact for any query</h2>
+            </div>
+            <div class="contact-img">
+                <img src="img/contact.webp" alt="Image">
+            </div>
+            <div class="contact-form">
+                <div id="success"></div>
+                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                    <div class="control-group">
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required"
+                            data-validation-required-message="Please enter your name" />
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="control-group">
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required"
+                            data-validation-required-message="Please enter your email" />
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="control-group">
+                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required"
+                            data-validation-required-message="Please enter a subject" />
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="control-group">
+                        <textarea class="form-control" id="message" placeholder="Message" required="required"
+                            data-validation-required-message="Please enter your message"></textarea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div>
+                        <button class="btn btn-custom" type="submit" id="sendMessageButton">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Blog Start -->
+    <div class="blog">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Our Bulletin </p>
+                <h2>Keep upto Date</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/blog-1.webp" alt="Image">
+                        </div>
+                        <div class="blog-text">
+                            <h3><a href="#">Jesus came into our world two thousand years ago to powerfully demonstrate
+                                    that God is for us.</a></h3>
+                            <p>
+                                In our brokenness and sin, God knew we needed rescuing from ourselves; we needed a
+                                Saviour. In his love and grace our Creator God allowed his own Son, Jesus Christ to die
+                                for us, once and for all dealing with our sin and rebellion. Three days later Jesus rose
+                                from the grave and the world would never be the same again!
+
+                                Jesus said: “I have come that you may have life; life better than you could ever imagine
+                                it to be.” (John 10:10)
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/blog-2.webp" alt="Image">
+                        </div>
+                        <div class="blog-text">
+                            <h3><a href="#">A Perfect God, Imperfect People</a></h3>
+                            <p>
+                                The church, by nature, is a community of believers. It is a place where people are at
+                                various stages of spiritual maturity and as such, misunderstanding and sin can occur.
+                                The book of Luke tells us a story of a man named Zacchaeus who was desperate to see
+                                Jesus but couldn't because of the crowd (Luke 19:3). Those closest to Jesus didn’t help
+                                him. And often, those closest to the church can be unhelpful to those who are far from
+                                Jesus
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="img/blog-3.webp" alt="Image">
+                        </div>
+                        <div class="blog-text">
+                            <h3><a href="#">Steps to Healing from Church Hurt</a></h3>
+                            <ul>
+                                <li>Go to God in prayer and His Word: Find healing and comfort in Scripture.</li>
+                                <li>Resolve your past: Don't ignore your own shortcomings (Matthew 7:3).</li>
+                                <li>Confront the offender: Handle conflicts biblically (Matthew 18:15).</li>
+                                <li>Confide in a faithful friend: Find support but avoid gossip.</li>
+                                <li>Pursue Holiness: Strive to be the embodiment of Christ's teachings you wish to see
+                                    in others.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+
+
+
+    <!-- Footer Start -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-contact">
+                        <h2>Our Head Office</h2>
+                        <p><i class="fa fa-map-marker-alt"></i>The Media Mill,</br> 7 Quince St, </br>Braamfontein
+                            Werf</br> Johannesburg</p>
+                        <p><i class="fa fa-phone-alt"></i><a href="https://api.whatsapp.com/send?phone=27789540650"
+                                target="_blank" rel="noopener noreferrer">+27 78 954 0650</a></p>
+                        <p><i class="fa fa-envelope"></i>
+                            <a href="mailto:info@hhi.org.za">info@hhi.org.za</a>
+                        </p>
+                        <div class="footer-social">
+                            <a class="btn btn-custom" href="https://twitter.com/harvesthousersa" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-custom"
+                                href="https://www.facebook.com/HarvestHouseInternationalBraamfontein" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-custom" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-custom" href="https://www.instagram.com/harvesthousersa/" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-link">
+                        <h2>Popular Links</h2>
+                        <a href="prayer-request.html">Prayer Requests</a>
+                        <a href="accept-jesus.html">Salvation</a>
+                        <a href="coming/index.html">Give</a>
+                        <a href="contact.html">Connect</a>
+                        <a href="employeePortal/index.html" target="_blank" rel="noopener noreferrer">Employee
+                            Potral</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-link">
+                        <h2>Useful Links</h2>
+                        <a href="terms-and-conditions.html">Terms of use</a>
+                        <a href="privacy-policy.html">Privacy policy</a>
+                        <a href="https://api.whatsapp.com/send?phone=27789540650" target="_blank"
+                            rel="noopener noreferrer">Tech Support</a>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <a href="#"><img src="img/partners/hhi.webp" alt="HHI logo" style="width: 150px ;"></a>
+                </div>
+            </div>
+        </div>
+        <div class="container copyright">
+            <div class="row">
+                <div class="col-md-6">
+                    <p> Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved | Crafted<br />
+                        by <a href="https://www.stripedape.co.za" target="_blank" rel="noopener noreferrer">Striped
+                            Ape</a>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p>Harvest House International Church is a registered NPC in South Africa. Registration Number:
+                        2017/076427/08</p>
+
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to top button -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/parallax/parallax.min.js"></script>
+
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+</body>
+
+</html>

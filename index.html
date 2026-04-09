@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Harvest House Internationl RSA</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Harvest House International RSA , responsive" name="keywords">
+    <meta content="Harvest House International RSA" name="description">
+    <meta name="author" content="Farai Macheka, Striped Ape" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Load Facebook SDK for JavaScript -->
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v3.2'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat" attribution="setup_tool" page_id="1648026975416725"
+        logged_in_greeting="Shalom, how can we help you?"
+        logged_out_greeting="You can get in touch with us on our whatsapp number +27 78 954 0650" theme_color="#0098da">
+    </div>
+    <!-- Top Bar Start -->
+    <div class="top-bar d-none d-md-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="top-bar-left">
+                        <div class="text">
+                            <i class="fa fa-phone-alt"></i>
+                            <p><a href="https://api.whatsapp.com/send?phone=27789540650" target="_blank"
+                                    rel="noopener noreferrer">+27 78 954 0650</a></p>
+                        </div>
+                        <div class="text">
+                            <i class="fa fa-envelope"></i>
+                            <p> <a href="mailto:info@hhi.org.za">info@hhi.org.za</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="top-bar-right">
+                        <div class="social">
+                            <a href="https://twitter.com/harvesthousersa" target="_blank" rel="noopener noreferrer"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/HarvestHouseInternationalBraamfontein" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+
+                            <a href="https://www.instagram.com/harvesthousersa/" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Bar End -->
+
+    <!-- Nav Bar Start -->
+    <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand"><img src="img/partners/hhi.webp" alt="HHI logo"></a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+
+                    <a href="event.html" class="nav-item nav-link">Events</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Get Connected</a>
+                        <div class="dropdown-menu">
+                            <a href="https://easterevents.netlify.app/" target="_blank" rel="noopener noreferrer"
+                                class="dropdown-item">Easter Events</a>
+                            <a href="https://prayerconference2026.netlify.app/" target="_blank"
+                                rel="noopener noreferrer" class="dropdown-item">Prayer Conference 2026</a>
+                            <a href="http://cresta.hhi.org.za/" target="_blank" rel="noopener noreferrer"
+                                class="dropdown-item">Cresta</a>
+                            <a href="https://mli.hhi.org.za/" target="_blank" rel="noopener noreferrer"
+                                class="dropdown-item">MLI</a>
+                            <a href="maboneng/index.html" target="_blank" rel="noopener noreferrer"
+                                class="dropdown-item">Braamfontein Werf</a>
+                            <a href="pastors.html" class="dropdown-item">Our Pastors</a>
+                            <a href="prayer-request.html" class="dropdown-item">Prayer Requests</a>
+                            <a href="randburg/index.html" target="_blank" rel="noopener noreferrer"
+                                class="dropdown-item">Randburg</a>
+                            <a href="kempton-park/index.html" target="_blank" rel="noopener noreferrer"
+                                class="dropdown-item">Kempton Park</a>
+                            <a href="tshwane/index.html" target="_blank" rel="noopener noreferrer"
+                                class="dropdown-item">Tshwane &amp;
+                                Eastern Cape</a>
+                            <a href="https://www.harvesthouseinternational.org" target="_blank" rel="noopener noreferrer"
+                                class="dropdown-item">HQ Zimbabwe</a>
+                            <a href="http://hhi.org.zw/harvestmusiczw/" target="_blank" rel="noopener noreferrer"
+                                class="dropdown-item">Harvest Music</a>
+                            <a href="https://www.instagram.com/harvesthousersa/" target="_blank"
+                                rel="noopener noreferrer" class="dropdown-item">Harvest Music RSA</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Connect</a>
+                    <a href="coming/index.html" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-custom">Give</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Nav Bar End -->
+
+    <section class="hero-section" id="section_1">
+        <div class="container-fluid">
+            <div class="video-wrap">
+                <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                    <source src="video/worship.mp4" type="video/mp4" style=" padding-bottom: 50px;">
+                    <source src="video/worship.webm" type="video/webm">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Modal Start-->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+                            allow="autoplay" title="youTube"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+
+    <!-- Service Start -->
+    <div class="service">
+        <div class="container">
+            <div class="section-header text-center">
+
+                <h2>Hebrews 10:25</h2>
+                <p>“Not forsaking the assembling of ourselves together, as is the manner of some, but exhorting one
+                    another,
+                    and so much the more as you see the Day approaching.”</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="flaticon-diet"></i>
+                        </div>
+                        <div class="service-text">
+                            <a class="btn btn-custom" href="https://api.whatsapp.com/send?phone=27789540650"
+                                target="_blank" rel="noopener noreferrer">Plan a Visit</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="flaticon-water"></i>
+                        </div>
+                        <div class="service-text">
+                            <a class="btn btn-custom" href="accept-jesus.html" target="_blank"
+                                rel="noopener noreferrer">Salavation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="flaticon-healthcare"></i>
+                        </div>
+                        <div class="service-text">
+                            <a class="btn btn-custom" href="home.html" target="_blank" rel="noopener noreferrer">Welcome
+                                Home</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Featured Updates Start -->
+    <div class="featured-updates">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Stay Connected</p>
+                <h2>Easter Events & Latest Updates</h2>
+                <p>Join our Easter gatherings and keep up with the latest news from Harvest House International
+                    Braamfontein.</p>
+            </div>
+            <div class="row align-items-stretch">
+                <div class="col-lg-5 mb-4">
+                    <div class="featured-updates-card">
+                        <span class="featured-updates-tag">Featured Link</span>
+                        <h3>Easter Events 2026</h3>
+                        <p>See the latest Easter programme, service details, and event information on our dedicated
+                            events page.</p>
+                        <div class="featured-updates-actions">
+                            <a class="btn btn-custom" href="https://easterevents.netlify.app/" target="_blank"
+                                rel="noopener noreferrer">Open Easter Events</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 mb-4">
+                    <div class="featured-updates-feed">
+                        <div class="featured-updates-feed-header">
+                            <h3>Latest Facebook Updates</h3>
+                            <a href="https://www.facebook.com/HarvestHouseInternationalBraamfontein" target="_blank"
+                                rel="noopener noreferrer">Visit Facebook Page</a>
+                        </div>
+                        <iframe
+                            title="Harvest House International Braamfontein Facebook updates"
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FHarvestHouseInternationalBraamfontein&tabs=timeline&width=500&height=620&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                            width="500" height="620" style="border:none;overflow:hidden" scrolling="no"
+                            frameborder="0" allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Featured Updates End -->
+
+
+    <!-- Footer Start -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-contact">
+                        <h2>Our Head Office</h2>
+                        <p><i class="fa fa-map-marker-alt"></i>The Media Mill,</br> 7 Quince St, </br>Braamfontein
+                            Werf</br> Johannesburg</p>
+                        <p><i class="fa fa-phone-alt"></i><a href="https://api.whatsapp.com/send?phone=27789540650"
+                                target="_blank" rel="noopener noreferrer">+27 78 954 0650</a></p>
+                        <p><i class="fa fa-envelope"></i>
+                            <a href="mailto:info@hhi.org.za">info@hhi.org.za</a>
+                        </p>
+                        <div class="footer-social">
+                            <a class="btn btn-custom" href="https://twitter.com/harvesthousersa" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-custom"
+                                href="https://www.facebook.com/HarvestHouseInternationalBraamfontein" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-custom" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-custom" href="https://www.instagram.com/harvesthousersa/" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-link">
+                        <h2>Popular Links</h2>
+                        <a href="prayer-request.html">Prayer Requests</a>
+                        <a href="accept-jesus.html">Salvation</a>
+                        <a href="coming/index.html">Give</a>
+                        <a href="contact.html">Connect</a>
+                        <a href="employeePortal/index.html" target="_blank" rel="noopener noreferrer">Employee
+                            Potral</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-link">
+                        <h2>Useful Links</h2>
+                        <a href="terms-and-conditions.html">Terms of use</a>
+                        <a href="privacy-policy.html">Privacy policy</a>
+                        <a href="https://api.whatsapp.com/send?phone=27789540650" target="_blank"
+                            rel="noopener noreferrer">Tech Support</a>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <a href="#"><img src="img/partners/hhi.webp" alt="HHI logo" style="width: 150px ;"></a>
+                </div>
+            </div>
+        </div>
+        <div class="container copyright">
+            <div class="row">
+                <div class="col-md-6">
+                    <p> Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved | Crafted<br />
+                        by <a href="https://www.stripedape.co.za" target="_blank" rel="noopener noreferrer">Striped
+                            Ape</a>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p>Harvest House International Church is a registered NPC in South Africa. Registration Number:
+                        2017/076427/08</p>
+
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to top button -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/parallax/parallax.min.js"></script>
+
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+</body>
+
+</html>
