@@ -3,6 +3,10 @@
 - What changed:
 - Why:
 
+## Base Branch
+
+- [ ] This pull request targets `develop`
+
 ## Affected Areas
 
 - Paths or pages:
@@ -16,4 +20,3 @@
 ## Screenshots
 
 <!-- Add before/after screenshots when the UI changed -->
-

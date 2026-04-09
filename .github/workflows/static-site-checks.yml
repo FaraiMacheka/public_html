@@ -4,8 +4,10 @@ on:
   pull_request:
   push:
     branches:
+      - develop
       - main
       - master
+
 
 jobs:
   validate:
@@ -17,4 +19,3 @@ jobs:
       - name: Validate static pages
         shell: pwsh
         run: ./.github/scripts/validate-static-site.ps1
-
